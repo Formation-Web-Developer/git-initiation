@@ -105,3 +105,9 @@ Aller sur un hébergement git en ligne (github, gitlab, gitbucket) et créer un 
 ```git
 git remote add origin <repository-link.git>
 ```
+
+Voir la liste des dépôts en ligne enregistrés
+
+```
+git remove -v
+```
