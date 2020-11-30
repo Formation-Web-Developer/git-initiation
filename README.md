@@ -103,11 +103,18 @@ git branch -d dev
 Aller sur un hébergement git en ligne (github, gitlab, gitbucket) et créer un nouveau repository.
 
 ```git
-git remote add origin <repository-link.git>
+git remote add <name> <repository-link.git>
 ```
+*Le **name** par convention on enseigne origin*
 
 Voir la liste des dépôts en ligne enregistrés
 
-```
+```git
 git remove -v
+```
+
+Envoyer son dépôt local sur le dépôt en ligne:
+
+```git
+git push -u <remote-name> <branch>
 ```
