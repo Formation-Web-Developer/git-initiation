@@ -127,3 +127,9 @@ git push
 or
 git push <remote-name> <branch>
 ```
+
+# Récupérer un répôt en ligne
+
+```git
+git clone <url.git>
+```
