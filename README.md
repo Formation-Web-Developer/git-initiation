@@ -118,3 +118,12 @@ Envoyer son dépôt local sur le dépôt en ligne:
 ```git
 git push -u <remote-name> <branch>
 ```
+
+Par la suite il sera possible directement de faire la commande:
+
+```git
+git push
+
+or
+git push <remote-name> <branch>
+```
