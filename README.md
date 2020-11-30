@@ -73,3 +73,15 @@ voir les branches
 ```git
 git branch
 ```
+
+créer une nouvelle branche
+
+```git
+git branch <branch-name>
+```
+
+Se diriger sur une branche
+
+```git
+git checkout <branch-name>
+```
