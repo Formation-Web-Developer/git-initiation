@@ -85,3 +85,15 @@ Se diriger sur une branche
 ```git
 git checkout <branch-name>
 ```
+
+Fusionner une branche
+
+```git
+git merge <branch-name>
+```
+
+Supprimer une branche
+
+```git
+git branch -d dev
+```
