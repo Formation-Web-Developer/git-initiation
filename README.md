@@ -41,7 +41,7 @@ or
 git add .
 ```
 
-## Valider l'ajout d'un fichier à son dépot
+## Valider l'ajout d'un fichier à son dépôt
 
 ```git
 git commit -m 'your message'
@@ -96,4 +96,12 @@ Supprimer une branche
 
 ```git
 git branch -d dev
+```
+
+# Ajouter son dépôt en ligne
+
+Aller sur un hébergement git en ligne (github, gitlab, gitbucket) et créer un nouveau repository.
+
+```git
+git remote add origin <repository-link.git>
 ```
